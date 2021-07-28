@@ -1,7 +1,7 @@
 .hello-world-banner {
     height: 300px;
     width: 100%;
-    background: red;
+    background: var(--quaternary);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,5 +10,5 @@
 
 .hello-world {
     font-size: 8em;
-    color: white;
+    color: var(--secondary);
 }
